@@ -59,18 +59,18 @@ gsap.from("#page2_left_child2_1,#page2_left_child2_2,#page2_left_child2_3",{
 }   
 });
 gsap.from("#page2_box1",{
+  x:-500,
+  duration:1,
+  scrollTrigger:"#page2_box1"
+});
+gsap.from("#page2_box2",{
     x:-500,
     duration:1,
-    scrollTrigger:"#page2_box1",
-});
-// gsap.from("#page2_box2",{
-//     x:500,
-//     duration:1,
-//     scrollTrigger:"#page2_box2",
-// });
-// gsap.from("#page2_box3",{
-//     x:-500,
-//     duration:1,
-//     scrollTrigger:"#page2_box3",
-// });
+    scrollTrigger:"#page2_box2"
+  });
+  gsap.from("#page2_box3",{
+    x:-500,
+    duration:1,
+    scrollTrigger:"#page2_box3"
+  });
 
