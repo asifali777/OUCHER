@@ -8,6 +8,10 @@ tl1.from("#middle_nav a",{
     duration:.8,
     stagger:.2
 });
+tl1.from("#heading_1",{
+    scale:0,
+    duration:1
+})
 gsap.from("#signup",{
     x:400,
     duration:1
@@ -22,7 +26,7 @@ gsap.from("#img1",{
     stagger:1,
     duration:2
 });
-gsap.from("#heading_1, #img2",{
+gsap.from("#img2",{
     scale:0,
     duration:1
 });
