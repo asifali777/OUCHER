@@ -73,4 +73,9 @@ gsap.from("#page2_box2",{
     duration:1,
     scrollTrigger:"#page2_box3"
   });
+gsap.from("#icon",{
+    x:3,
+    duration:1,
+    repeat:-1
+})
 
