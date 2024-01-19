@@ -26,14 +26,13 @@ gsap.from("#img1",{
     stagger:1,
     duration:2
 });
-gsap.from("#img2",{
+tl1.from("#img2",{
     scale:0,
     duration:1
 });
-gsap.from("#box1 p, #book_a_call",{
+tl1.from("#box1 p, #book_a_call",{
     opacity:0,
-    delay:1,
-    stagger:1,
+    stagger:.5,
     duration:1
 });
 gsap.from("#page2_left_child1_1",{
