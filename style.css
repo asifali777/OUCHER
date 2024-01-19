@@ -166,6 +166,10 @@ span img {
   align-items: center;
   transition: all 0.2s;
 }
+#bookButton a{
+  text-decoration: none;
+  color: white;
+}
 #bookButton:hover {
   cursor: pointer;
 }
